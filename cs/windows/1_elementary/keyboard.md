@@ -1,8 +1,44 @@
 # 키보드
 
-<img src="./keyboard/ISO_keyboard_(105)_QWERTY_UK.svg.png" style="background-color: #BBBBBB">
+<img src="./keyboard/keyboard.jpg" style="background-color: #BBBBBB">
 
 > 키보드에 따라 키의 **배열**이나 인쇄된 **글자**는 다를 수 있다.
+
+## 편집 키(enter and editing keys)
+
+- ![`Enter`](./keyboard/enter.png) : `엔터`(enter)
+- ![`BS`](./keyboard/backspace.png) : `백 스페이스`(backspace)
+- ![`Ins`](./keyboard/insert.png) : `인서트`(insert)
+- ![`Del`](./keyboard/delete.png) : `딜리트`(delete)
+
+## 탐색 키(navigation keys)
+
+- ![`↑`](./keyboard/up.png), ![`↓`](./keyboard/down.png), ![`←`](./keyboard/left.png), ![`→`](./keyboard/right.png) : 화살표 키(arrow keys), 방향 키(directional keys)
+- ![`Tab`](./keyboard/tap.png) : `탭`(tab)
+- ![`Home`](./keyboard/home.png) : `홈`(home)
+- ![`End`](./keyboard/end.png) : `엔드`(end)
+- ![`PgUp`](./keyboard/page_up.png) : `페이지 업`(page up)
+- ![`PgDn`](./keyboard/page_down.png) : `페이지 다운`(page down)
+
+## 제어 키(control keys)
+
+- 조합 키(modifier keys)
+  - ![`Ctrl`](./keyboard/control.png) : `컨트롤`(control)
+  - ![`Alt`](./keyboard/alt.png) : `알트`(alt = alternative)
+  - ![`Shift`](./keyboard/shift.png) : `쉬프트`(shift)
+- 시스템 키(system and GUI keys)
+  - ![`Win`](./keyboard/windows_logo.png) : `위도우즈`(windows logo key)
+  - ![`Esc`](./keyboard/escape.png) : `이에스씨`, `이스케이프`(escape)
+  - ![`PrtSc`](./keyboard/print_screen.png) : `프린트 스크린`(print screen)
+  - ![`Pause`](./keyboard/pause.png) : `포즈`(pause)
+- 잠금 키(lock keys)
+  - ![`CapsLock`](./keyboard/capslock.png) : `캡스 락`(caps lock)
+  - ![`ScrLk`](./keyboard/scroll_lock.png) : `스크롤 락`(scroll lock)
+  - ![`Num`](./keyboard/num_lock.png) : `넘버 락`(number lock)
+
+## 기능 키(function keys)
+
+- ![`F1`](./keyboard/f1.png), ![`F2`](./keyboard/f2.png), ![`F3`](./keyboard/f3.png), ..., ![`F12`](./keyboard/f12.png)
 
 ## 일반 키(typing keys, alphanumeric keys)
 
@@ -51,41 +87,5 @@
     - `?` : `물음표`, `퀘스천 마크`(question mark)
   - 공백 문자(space characters)
     - ![` `](./keyboard/space.png) : `공백`, `스페이스`(space)
-
-## 편집 키(enter and editing keys)
-
-- ![`Enter`](./keyboard/enter.png) : `엔터`(enter)
-- ![`BS`](./keyboard/backspace.png) : `백 스페이스`(backspace)
-- ![`Ins`](./keyboard/insert.png) : `인서트`(insert)
-- ![`Del`](./keyboard/delete.png) : `딜리트`(delete)
-
-## 탐색 키(navigation keys)
-
-- ![`↑`](./keyboard/up.png), ![`↓`](./keyboard/down.png), ![`←`](./keyboard/left.png), ![`→`](./keyboard/right.png) : 화살표 키(arrow keys)
-- ![`Tab`](./keyboard/tap.png) : `탭`(tab)
-- ![`Home`](./keyboard/home.png) : `홈`(home)
-- ![`End`](./keyboard/end.png) : `엔드`(end)
-- ![`PgUp`](./keyboard/page_up.png) : `페이지 업`(page up)
-- ![`PgDn`](./keyboard/page_down.png) : `페이지 다운`(page down)
-
-## 제어 키(control keys)
-
-- 조합 키(modifier keys)
-  - ![`Ctrl`](./keyboard/control.png) : `컨트롤`(control)
-  - ![`Alt`](./keyboard/alt.png) : `알트`(alt = alternative)
-  - ![`Shift`](./keyboard/shift.png) : `쉬프트`(shift)
-- 시스템 키(system and GUI keys)
-  - ![`Win`](./keyboard/windows_logo.png) : `위도우즈`(windows logo key)
-  - ![`Esc`](./keyboard/escape.png) : `이에스씨`, `이스케이프`(escape)
-  - ![`PrtSc`](./keyboard/print_screen.png) : `프린트 스크린`(print screen)
-  - ![`Pause`](./keyboard/pause.png) : `포즈`(pause)
-- 잠금 키(lock keys)
-  - ![`CapsLock`](./keyboard/capslock.png) : `캡스 락`(caps lock)
-  - ![`ScrLk`](./keyboard/scroll_lock.png) : `스크롤 락`(scroll lock)
-  - ![`Num`](./keyboard/num_lock.png) : `넘버 락`(number lock)
-
-## 기능 키(function keys)
-
-- ![`F1`](./keyboard/f1.png), ![`F2`](./keyboard/f2.png), ![`F3`](./keyboard/f3.png), ..., ![`F12`](./keyboard/f12.png)
 
 <!-- TODO 키 시각화 이미지 더 사용하기 -->
