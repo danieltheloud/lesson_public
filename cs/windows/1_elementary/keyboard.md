@@ -14,7 +14,7 @@
 ## 탐색 키(navigation keys)
 
 - ![`↑`](./keyboard/up.png), ![`↓`](./keyboard/down.png), ![`←`](./keyboard/left.png), ![`→`](./keyboard/right.png) : 화살표 키(arrow keys), 방향 키(directional keys)
-- ![`Tab`](./keyboard/tap.png) : `탭`(tab)
+- ![`Tab`](./keyboard/tab.png) : `탭`(tab)
 - ![`Home`](./keyboard/home.png) : `홈`(home)
 - ![`End`](./keyboard/end.png) : `엔드`(end)
 - ![`PgUp`](./keyboard/page_up.png) : `페이지 업`(page up)
@@ -87,5 +87,3 @@
     - `?` : `물음표`, `퀘스천 마크`(question mark)
   - 공백 문자(space characters)
     - ![` `](./keyboard/space.png) : `공백`, `스페이스`(space)
-
-<!-- TODO 키 시각화 이미지 더 사용하기 -->
