@@ -17,7 +17,7 @@
     - `C++`
     - `C#`
     - [`Java`](./programming_language/java.md)
-    - `JavaScript`
+    - [`JavaScript`](./programming_language/javascript.md)
     - `Python`
     - `Mojo`
     - `Rust`
@@ -44,9 +44,9 @@
 > 
 > ### 정적과 동적으로 분류
 > 
-> - 정적 언어(Static Programming Language)
+> - 정적 언어(Statically-typed Programming Language)
 >   - `C`, `C++`, `C#`, `Java`, `Rust`, `Go`, `Swift`, `FORTRAN`, `Haskell`, `Scala`
-> - 동적 언어(Dynamic Programming Language)
+> - 동적 언어(Dynamically-typed Programming Language)
 >   - `VB`, `Lua`, `PHP`, `VB.NET`, `JavaScript`, `Python`, `Objective-C`, `Dart`, `Perl`, `Ruby`
 > - 복합 프로그래밍 언어(Complex Programming Language)
 >   - `Mojo`

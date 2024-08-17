@@ -78,7 +78,7 @@
     - `\` : `백 슬래쉬`(backslash), 백워드 슬래쉬(backward slash), 리버스 솔리더스(reverse solidus)
     - `|` : `버티컬 바`(vertical bar), `파이프 라인`(pipe-line), 버티컬 파이프(vertical pipe)
     - `;` : `세미 콜론`(semi-colon)
-    - ` :` : `콜론`(colon)
+    - `:` : `콜론`(colon)
     - `'` : `홑 따옴표`, `싱글 쿼테이션 마크`(sigle quotation mark), `싱글 쿼트`(single quote), `어포스트로피`(apostrophe), 프라임(prime)
     - `"` : `쌍 따옴표`, `더블 쿼테이션 마크`(double quotation mark), `더블 쿼트`(double quote)
     - `,` : `쉼표`, `콤마`(comma)

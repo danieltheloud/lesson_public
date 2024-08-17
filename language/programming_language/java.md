@@ -20,4 +20,6 @@ public class HelloWorld {
 - [`프로젝트`(project) 생성](./java/project/project_creation.md)
 - `소스 코드`(source code) 작성
 
-## 변수와 함수
+## 구문(statement)
+
+- [변수(variable)](./java/expression_and_statement/variable.md)
