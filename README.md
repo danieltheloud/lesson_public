@@ -5,15 +5,16 @@
 - 운영체제(`OS`, Operating System)
   - 윈도우즈(`Windows`)
     - [초급](./cs/windows/1_elementary.md)
-    - 중급
-    - 고급
+    - [중급](./cs/windows/2_intermediate.md)
   - 맥OS(`MacOS`)
   - 리눅스(`Linux`)
+    - [초급](./cs/linux/1_elementary.md)
+    - [중급](./cs/linux/2_intermediate.md)
 - [이산 수학(`discrete mathematics`)](./cs/discrete_mathematics.md)
 - 표준 부호(`standard code`)
   - `ASCII`
   - `Unicode`
-- 정규 표현식(regular expression, `regex`, regexp)
+- [정규 표현식(regular expression, `regex`, `regexp`)]()
 - 프로토콜(`protocol`)
   - `OSI 7 Layers`
 - 컨벤션(`convention`)
@@ -30,7 +31,7 @@
 
 ## SCM (Source Code Management)
 
-- `Git`
+- [`Git`](./scm/git.md)
 
 ## Container
 
