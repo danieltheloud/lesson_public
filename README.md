@@ -4,20 +4,20 @@
 
 - 운영체제(`OS`, Operating System)
   - 윈도우즈(`Windows`)
-    - [초급](./cs/windows/1_elementary.md)
-    - [중급](./cs/windows/2_intermediate.md)
+    - [초급](./cs/os/windows/1_elementary.md)
+    - [중급](./cs/os/windows/2_intermediate.md)
   - 맥OS(`MacOS`)
   - 리눅스(`Linux`)
-    - [초급](./cs/linux/1_elementary.md)
-    - [중급](./cs/linux/2_intermediate.md)
+    - [초급](./cs/os/linux/1_elementary.md)
+    - [중급](./cs/os/linux/2_intermediate.md)
 - [이산 수학(`discrete mathematics`)](./cs/discrete_mathematics.md)
 - 표준 부호(`standard code`)
   - `ASCII`
   - `Unicode`
-- [정규 표현식(regular expression, `regex`, `regexp`)]()
-- 프로토콜(`protocol`)
+- 통신 프로토콜(`communication protocol`)
   - `OSI 7 Layers`
 - 컨벤션(`convention`)
+- [정규 표현식(regular expression, `regex`, `regexp`)]()
 
 ## 컴퓨터 언어(`computer language`)
 
@@ -33,7 +33,7 @@
 
 - [`Git`](./scm/git.md)
 
-## Container
+## 컨테이너(Container)
 
 - `Docker`
 - `Kubernetes`

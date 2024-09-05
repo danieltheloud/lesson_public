@@ -1,5 +1,7 @@
 # 산술 연산자(arithmetic operator)
 
+## 산술 이항 연산자(arithmetic binary operation)
+
 - 더하기 연산자(addition operator) : `+`
   - `x + y` 꼴에서 `x`와 `y`를 더한 값을 반환한다.
   - 단, 피연산자 중 하나 이상이 문자열일 경우 문자열 합치기를 수행한다.
@@ -18,7 +20,7 @@
 
 - 단항 플러스 연산자(unary plus operator) : `+`
   - `+x` 꼴에서 변수 `x`의 부호를 강조한다.
-  - `x`의 타입이 `number`가 아닐 때 `number`로의 형변환을 시도하게 한다.
+  - `x`의 타입이 `number`가 아닐 때 `number`로의 형변환을 시도한다.
 - 단항 마이너스 연산자(unary negation operator) : `-`
   - `-x` 꼴에서 `x`의 부호를 반전한다.
 - 증가 연산자(increment operator) : `++`

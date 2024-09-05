@@ -6,5 +6,5 @@
 - Windows
   - `.ini`(initialization)
   - `registry`
-- macOS
+- MacOS
   - `.plist`(property list)
