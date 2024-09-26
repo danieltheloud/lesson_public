@@ -1,7 +1,5 @@
 # 자료형(type)
 
-# 자료형(type)
-
 `JavaScript`에는 8가지의 원시 자료형이 있다.
 
 - 원시 자료형(primitive type)
@@ -29,6 +27,7 @@
 ## 자료형 변환(data type conversion)
 
 - `JavaScript`는 동적 프로그래밍 언어로써, 변수의 자료형을 자유롭게 바꿀 수 있다.
+
   ```js
   let thisVar = 1;
   // thisVar 변수는 number 자료형이다.
@@ -43,6 +42,7 @@
 
 - 숫자 자료형을 문자 자료형으로 변환하려면 `toString` 함수를 사용한다.
 - `toString`는 `Number`함수의 소유이다.
+
   ```js
   let num = 10;
   // num의 값은 10이고, 자료형은 number이다.
@@ -52,8 +52,10 @@
   // num의 값은 10이고, 자료형은 string이다
   console.log(`num의 값은 ${num}이고, 자료형은 ${typeof num}이다.`);
   ```
+
 - 문자 자료형을 숫자 자료형으로 변환하려면 `parseInt` 또는 `parseFloat` 함수를 사용한다.
 - `parseInt`와 `parseFloat`은 `window` 객체의 소유이다.
+
   ```js
   let num1 = '1';
   // num1의 값은 1이고, 자료형은 string이다.
@@ -71,4 +73,5 @@
   // num2의 값은 3.14이고, 자료형은 number이다.
   console.log(`num2의 값은 ${num2}이고, 자료형은 ${typeof num2}이다.`);
   ```
+
 - 정수 꼴로 볼 수 없는 값을 `parseInt`하거나, 실수 꼴로 볼 수 없는 값을 `parseFloat`하는 등의 시도는 오류를 야기한다.

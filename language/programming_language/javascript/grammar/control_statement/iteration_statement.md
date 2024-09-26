@@ -4,6 +4,7 @@
 
 - `for`
   - `for (x; y; z) {l}`의 꼴에서 조건 `y`가 참인 동안 `l`을 반복한다.
+
     ```js
     for (let i = 0; i < 5; i++) {
         console.log(i);
@@ -20,6 +21,7 @@
 
 - `for...of`
   - `for (const x of y) {z}`의 꼴에서 `y`의 각 요소인 `x`를 순회하며 `z`를 반복한다.
+
     ```js
     let myArray = ['a', 'b', 'c'];
 
@@ -31,8 +33,10 @@
      * c
      */
     ```
+
 - `for...in`
   - `for (const x in y) {z}`의 꼴에서 `y`의 각 요소의 키(key)인 `x`를 순회하며 `z`를 반복한다.
+
     ```js
     let myObject = {first: 'apple', second: 'tomato', third: 'banana'};
 
