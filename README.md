@@ -17,7 +17,7 @@
 - 통신 프로토콜(`communication protocol`)
   - `OSI 7 Layers`
 - 컨벤션(`convention`)
-- [정규 표현식(regular expression, `regex`, `regexp`)]()
+- 정규 표현식(regular expression, `regex`, `regexp`)
 
 ## 응용 프로그램(`application`)
 

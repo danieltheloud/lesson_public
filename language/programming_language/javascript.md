@@ -31,7 +31,7 @@ console.log('Hello, World!');
 - [함수(function)](./javascript/grammar/function.md)
 - 원시 표현식(primary expression)
   - [배열(array)](./javascript/grammar/primary_expression/array.md)
-  - 객체(object)
+  - [객체(object)](./javascript/grammar/primary_expression/object.md)
 - 제어문(control statement)
   - [반복문(iteration statement)](./javascript/grammar/control_statement/iteration_statement.md)
   - 조건문(conditional statement)
