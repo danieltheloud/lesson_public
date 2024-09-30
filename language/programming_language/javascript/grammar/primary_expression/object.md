@@ -1,5 +1,27 @@
 # 객체(object)
 
+- 객체는 JavaScript의 핵심적인 자료형이다.
+- `C++`나 `Java`의 `Map`, `Python`의 `dictionary` 자료형과 유사하게, 키(key)와 값(value)의 쌍으로써 속성(property)를 가진다.
+
+## 객체의 선언(declaration) 및 초기화(initialization)
+
+- 객체 리터럴(literal)에 의한 선언
+  - 객체를 리터럴로 표현할 때는, 중괄호(`{`, `}`)로 감싸준다.
+  - 속성은 키와 값으로 이루어져 있으며, 키와 값을 콜론(`:`)으로 구분한다.
+  - 각 속성은 콤마(`,`)로 구분한다.
+
+    ```js
+    let myObject = {
+        name: '홍길동',
+        age: 18,
+        hobby: 'coding'
+    }
+    ```
+
+- 생성자(constructor)에 의한 선언
+
+<!-- TODO -->
+
 ## this
 
 > - JavaScript에 `this` 키워드는 타 언어들의 `this`와는 차이가 있다.
@@ -9,11 +31,7 @@
   - 전역 범위에서의 `this`는 JavaScript의 최상위 객체인 `window`를 가르킨다.
 
     ```js
-    function myFunc() {
-        return this;
-    }
-
-    console.log(myFunc());  // Window { ... }
+    console.log(this);  // Window { ... }
     ```
 
 - `object` 범위에서 일반 함수에 의한 `this`
