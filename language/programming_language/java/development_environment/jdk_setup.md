@@ -12,7 +12,8 @@
    - 다른 파일로도 설치가 가능하지만, 과정이 수월한 설치 프로그램을 사용한다.
 5. 터미널을 열고, `java --version`이라고 입력해서 버전 정보가 정상적으로 출력되는지 확인한다.
    - 버전 정보는 아래와 비슷한 형태로 출력된다.
-     ```
+
+     ```txt
      java #.#.# yyyy-MM-dd
      Java(TM) SE Runtime Environment (build #.#.#)
      Java HotSpot(TM) 64-Bit Server VM (build #.#.#, mixed mode, sharing)

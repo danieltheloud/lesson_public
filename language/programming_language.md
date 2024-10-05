@@ -34,16 +34,16 @@
     - `Scala`
 
 > ### 컴파일드와 인터프리티드로 분류
-> 
+>
 > - 컴파일드 프로그래밍 언어(Compiled Programming Language)
 >   - `VB`, `VB.NET`, `C`, `C++`, `C#`, `Java`, `Mojo`, `Rust`, `Go`, `Objective-C`, `Swift`, `FORTRAN`, `Scala`
 > - 인터프리티드 프로그래밍 언어(Interpreted Programming Language)
 >   - `BASIC`, `JavaScript`, `PHP`, `Python`, `Perl`, `Ruby`
 > - 복합 프로그래밍 언어(Complex Programming Language)
 >   - `Dart`, `Haskell`
-> 
+>
 > ### 정적과 동적으로 분류
-> 
+>
 > - 정적 언어(Statically-typed Programming Language)
 >   - `C`, `C++`, `C#`, `Java`, `Rust`, `Go`, `Swift`, `FORTRAN`, `Haskell`, `Scala`
 > - 동적 언어(Dynamically-typed Programming Language)

@@ -5,7 +5,7 @@
 - SQL(Structured Query Language)
   - RDBMS(Relational DBMS)
     - `MySQL`
-    - `MariaDB`
+    - [`MariaDB`](./query_language/mariadb.md)
     - `Oracle Database`
     - `SQLite`
   - ORDBMS(Object-Relational DBMS)
