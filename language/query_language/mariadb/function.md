@@ -46,8 +46,9 @@
   - `CURRENT_DATE()` 함수와 같다.
 - `CURTIME()`: 현재 시간을 반환한다.
   - `CURRENT_TIME()` 함수와 같다.
-- `CURRENT_TIMESTAMP(x)` 혹은 `NOW(x)` 혹은 `SYSDATE(x)`: 현재 날짜와 시간을 반환한다.
+- `CURRENT_TIMESTAMP(x)`: 현재 날짜와 시간을 반환한다.
   - `x`는 마이크로초 자리수이며 생략시 `0`을 기본값으로 사용한다. 최댓값은 `6`이다.
+  - `NOW(x)`, `SYSDATE(x)` 함수와 같다.
 - `YEAR(x)`: 일시(혹은 날짜)인 `x`의 년(年)을 반환한다.
 - `MONTH(x)`: 일시(혹은 날짜)인 `x`의 월(月)을 반환한다.
 - `DAYOFMONTH(x)`: 일시(혹은 날짜)인 `x`의 일(日)을 반환한다.

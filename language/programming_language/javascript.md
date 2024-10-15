@@ -8,14 +8,16 @@ console.log('Hello, World!');
 
 ## 주석(comments)
 
-- 주석은 코드에 영향을 끼치지 않는다.
-- 개발자가 기록 또는 소통 등의 목적으로 사용한다.
-
 ```js
-// 한 줄 주석이다.
+// single-line comments
 
-/* 여려 줄
- * 주석이다.
+/*
+multi-line
+comments
+*/
+
+/**
+ * documentation
  */
 ```
 

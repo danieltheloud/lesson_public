@@ -8,6 +8,19 @@ SELECT 'Hello, World!' AS say;
 |---|---|
 |▶|Hello, World!|
 
+## 주석(comments)
+
+```sql
+# single-line comments
+
+-- single-line comments
+
+/*
+multi-line
+comments
+*/
+```
+
 ## 설치 및 접속
 
 - [설치](./mariadb/install.md)

@@ -13,9 +13,7 @@
 
 ## CRUD
 
-- [생성하기](./table_and_column/create.md)
-- [조회하기](./table_and_column/read.md)
-- [수정하기](./table_and_column/update.md)
-- [삭제하기](./table_and_column/delete.md)
-
-> `CRUD`는 create, read, update, delete의 첫글자를 붙인 것으로, DB를 대상으로 할 수 있는 행위들를 총칭하는 것이다.
+- [생성](./table_and_column/create.md)
+- [조회](./table_and_column/show.md)
+- [수정](./table_and_column/alter.md)
+- [삭제](./table_and_column/drop.md)

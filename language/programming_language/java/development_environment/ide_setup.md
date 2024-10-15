@@ -29,4 +29,5 @@
     - `indent-rainbow`
     - `Todo Tree`
     - `Trailing Spaces`
+
 > 지나치게 많은 확장 프로그램의 설치는 `IDE`의 속도를 저하시키므로 주의한다.
