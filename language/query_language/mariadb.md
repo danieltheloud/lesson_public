@@ -1,10 +1,10 @@
 # MariaDB
 
 ```sql
-SELECT 'Hello, World!' AS say;
+SELECT 'Hello, World!' AS `greating`;
 ```
 
-||say|
+||greating|
 |---|---|
 |▶|Hello, World!|
 

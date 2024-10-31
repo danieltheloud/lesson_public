@@ -1,6 +1,6 @@
 # 김태현 강사 강의자료
 
-## `CS`(Computer Science)
+## CS(Computer Science)
 
 - 운영체제(`OS`, Operating System)
   - 윈도우즈(`Windows`)
@@ -19,7 +19,7 @@
 - 컨벤션(`convention`)
 - 정규 표현식(regular expression, `regex`, `regexp`)
 
-## 응용 프로그램(`application`)
+## 응용 프로그램(application)
 
 - 마이크로 소프트 오피스(`Microsoft office`)
   - 엑셀(`Exel`)
@@ -28,7 +28,7 @@
 - 한컴 오피스
   - 한글 워드 프로세서
 
-## 컴퓨터 언어(`computer language`)
+## 컴퓨터 언어(computer language)
 
 - [셸 스크립트 언어(`shell script language`)](./language/shell_script_language.md)
 - [마크업 언어(`mark-up language`)](./language/mark_up_language.md)

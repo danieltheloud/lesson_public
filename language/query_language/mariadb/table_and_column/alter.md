@@ -1,10 +1,10 @@
 # 테이블 수정
 
-- `ALTER TABLE` 키워드를 사용하여서, `테이블` 수정할 수 있다.
+- `ALTER TABLE` 키워드를 사용해서, `테이블` 수정할 수 있다.
 
 ## 이름 변경
 
-- `RENAME` 키워드를 사용하여서, `테이블` 이름을 변경할 수 있다.
+- `RENAME` 키워드를 사용해서, `테이블` 이름을 변경할 수 있다.
 
     ```sql
     ALTER TABLE `스키마 이름`.`기존 테이블 이름`
@@ -28,3 +28,8 @@
 - [열 이름 변경](./column/rename.md)
 - [열 구조 변경](./column/modify.md)
 - [열 제거](./column/drop.md)
+
+## 제약조건 수정
+
+- [제약조건 추가](./constraint/add.md)
+- [제약조건 제거](./constraint/drop.md)

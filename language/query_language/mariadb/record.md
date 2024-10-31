@@ -8,3 +8,8 @@
 - [조회](./record/select.md)
 - [수정](./record/update.md)
 - [삭제](./record/delete.md)
+
+### 복합 쿼리
+
+- `SELECT INTO`
+- `INSERT INTO SELECT`

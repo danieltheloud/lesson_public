@@ -30,6 +30,10 @@ multi-line comments
 - [프로젝트(project) 생성](./java/project/project_creation.md)
 - [소스 코드(source code) 작성](./java/project/source_code_write.md)
 
+## 기초
+
+- [기본 출력 함수](./java/basic/standard_out.md)
+
 ## 구문(statement)
 
 - [변수(variable)](./java/expression_and_statement/variable.md)

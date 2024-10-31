@@ -1,6 +1,6 @@
 # 사용자 생성
 
-- `CREATE USER` 키워드를 사용하여서 새로운 사용자를 생성할 수 있다.
+- `CREATE USER` 키워드를 사용해서 새로운 사용자를 생성할 수 있다.
 
    ```sql
    CREATE USER `사용자명`@`호스트명` IDENTIFIED BY '비밀번호';
