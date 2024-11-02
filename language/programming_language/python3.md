@@ -25,6 +25,11 @@ docstrings
 - [변수](./python3/variable_and_type/variable.md)
 - [자료형](./python3/variable_and_type/type.md)
 
+## 제어문(control statement)
+
+- 반복문(iteration statement)
+- 조건문(conditional statement)
+
 ## 연산자(operator)와 함수(function)
 
 - [연산자](./python3/operator_and_function/operator.md)

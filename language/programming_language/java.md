@@ -33,11 +33,12 @@ multi-line comments
 ## 기초
 
 - [기본 출력 함수](./java/basic/standard_out.md)
+- [변수(variable)](./java/basic/variable.md)
+- [자료형(type)](./java/basic/type.md)
 
-## 구문(statement)
+## 제어문(control statement)
 
-- [변수(variable)](./java/expression_and_statement/variable.md)
-  - [자료형(type)](./java/expression_and_statement/type.md)
-- [연산자(operator)](./java/expression_and_statement/operator.md)
+- [반복문(iteration statement)](./java/expression/iteration.md)
+- [조건문(conditional statement)](./java/expression/conditional.md)
 
 <!-- TODO -->
