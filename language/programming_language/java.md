@@ -38,7 +38,7 @@ multi-line comments
 
 ## 제어문(control statement)
 
-- [반복문(iteration statement)](./java/expression/iteration.md)
-- [조건문(conditional statement)](./java/expression/conditional.md)
+- [반복문(iteration statement)](./java/statement/iteration.md)
+- [조건문(conditional statement)](./java/statement/conditional.md)
 
 <!-- TODO -->
