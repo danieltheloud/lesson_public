@@ -1,4 +1,4 @@
-# 자료형
+# 자료형(type)
 
 ## 기본 타입(standard type)
 
