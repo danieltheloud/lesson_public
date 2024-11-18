@@ -18,15 +18,7 @@
   - `OSI 7 Layers`
 - 컨벤션(`convention`)
 - 정규 표현식(regular expression, `regex`, `regexp`)
-
-## 응용 프로그램(application)
-
-- 마이크로 소프트 오피스(`Microsoft office`)
-  - 엑셀(`Exel`)
-  - 파워포인트(`PowerPoint`)
-  - 워드(`Word`)
-- 한컴 오피스
-  - 한글 워드 프로세서
+- [유의어 사전](./cs/dictionary.md)
 
 ## 컴퓨터 언어(computer language)
 
@@ -46,3 +38,12 @@
 
 - `Docker`
 - `Kubernetes`
+
+## 응용 프로그램(application)
+
+- 마이크로 소프트 오피스(`Microsoft office`)
+  - 엑셀(`Exel`)
+  - 파워포인트(`PowerPoint`)
+  - 워드(`Word`)
+- 한컴 오피스
+  - 한글 워드 프로세서

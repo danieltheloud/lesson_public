@@ -2,27 +2,27 @@
 
 - 속성은 클래스가 소유한 변수(variable)이다.
 - 속성에는 `클래스 속성`과 `인스턴스 속성`이 있다.
-- 속성의 명명법으로는 `카멜 케이스`를 사용한다.
+- 명명법 `카멜 케이스`
 
 ## 클래스 속성
 
 - `클래스 속성`은 클래스의 정의 내에서 선언된 변수이다.
 - `클래스 속성`은 **클래스의 소유**로써, 해당 클래스의 인스턴스 객체들이 **공유**하는 변수이다.
 
-```py
-class MyClass:
-    clsAttr = 'value'
-```
+  ```py
+  class MyClass:
+      clsAttr = "value"
+  ```
 
 ## 인스턴스 속성
 
 - `인스턴스 속성`은 `생성자 메서드`나 `인스턴스 메서드` 내에서 `self` 키워드 및 `맴버 접근 연산자`와 함께 선언된 변수이다.
 - `인스턴스 속성`은 **인스턴스의 소유**로써, 각각의 인스턴스 객체들이 **개별적으로 소유**하는 변수이다.
 
-```py
-class MyClass:
-    def __init(self, param):
-        self.instAttr = param
-    def myMethod(self, param):
-        self.instAttr = param
-```
+  ```py
+  class MyClass:
+      def __init(self, param):
+          self.instAttr = param
+      def myMethod(self, param):
+          self.instAttr = param
+  ```

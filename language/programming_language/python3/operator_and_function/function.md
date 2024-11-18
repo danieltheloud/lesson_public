@@ -11,6 +11,7 @@
 
 - [표준 입출력(standard I/O) 함수](./function/standard_io.md)
 - [파일 입출력(file I/O) 함수](./function/file_io.md)
+- [그 외의 내장 함수](./function/etc.md)
 
 ## 람다 함수
 
@@ -18,7 +19,7 @@
 - `람다 함수`는 `return` 키워드를 사용하지 않아도 표현식의 결괏값을 리턴한다.
 - `콜백 함수`로써 간단한 연산이나 짧은 함수를 정의하기 위해서 자주 사용된다.
 
-```py
-func = lambda x, y: x + y
-variable = func(arg1, arg2)
-```
+  ```py
+  func = lambda x, y: x + y
+  variable = func(arg1, arg2)
+  ```

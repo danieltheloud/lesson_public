@@ -1,5 +1,7 @@
 # 자료형
 
+- 자료형(type)은 변수가 가진 값을 어떻게 해석할 것인지에 대한 명시이다.
+
 ## 원시 자료형(primitive type)
 
 > `Java`의 원시 자료형에는 `부호가 없는`(unsigned) 자료형이 따로 존재하지 않는다.
@@ -59,7 +61,3 @@
 
 - [String: 문자열](./type/string.md)
 - [Array: 배열](./type/array.md)
-- List: 리스트
-- Map: 맵
-- Set: 집합
-- 상수 집합

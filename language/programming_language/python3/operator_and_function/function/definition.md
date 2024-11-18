@@ -6,41 +6,41 @@
   - `return` 키워드를 사용하지 않으면 `None`을 반환한다.
 - `매개 변수`의 이름과 값을 쌍으로 전달하는 것을 `키워드 인자`라고 한다.
 
-```py
-def func(param):
-    # 함수가 실행할 스코프
-    return 'value'
+  ```py
+  def func(param):
+      # 함수가 실행할 스코프
+      return "value"
 
-func(arg)
-func(param = arg)
-```
+  func(arg)
+  func(param = arg)
+  ```
 
 - 만약 실행해야할 코드가 한줄 뿐이라면 콜론 뒤에 연결하여서 작성이 가능하다.
 
-```py
-def func(param): # 함수가 실행할 구문
-```
+  ```py
+  def func(param): # 함수가 실행할 구문
+  ```
 
 - `매개 변수`가 2개 이상인 경우, 입력받은 인자는 `매개 변수`의 순서대로 전달된다.
 - 단, `키워드 인자`를 사용할 경우, 순서를 무시할 수 있다.
 
-```py
-def func(param1, param2):
-    # 함수가 실행할 스코프
+  ```py
+  def func(param1, param2):
+      # 함수가 실행할 스코프
 
-func(arg1, arg2)
-func(param2 = arg2, param1 = arg1)
-```
+  func(arg1, arg2)
+  func(param2 = arg2, param1 = arg1)
+  ```
 
 ## 기본값(default)
 
 - `매개 변수`에 `기본값`을 할당하면, 해당 `매개 변수`에 대한 인자가 제공되지 않았을 때, `기본값`을 사용한다.
 - 기본값이 없는 `매개 변수`는 모든 기본값이 설정된 `매개 변수`보다 선행해야 한다.
 
-```py
-def func(param1, param2 = 'value'):
-    pass
-```
+  ```py
+  def func(param1, param2 = "value"):
+      pass
+  ```
 
 ## 가변 인자(arguments)
 
@@ -48,19 +48,19 @@ def func(param1, param2 = 'value'):
 - `가변 인자`는 `매개 변수`의 이름 앞에 애스터리스크(`*`)하나를 추가하여 표현한다.
 - `가변 인자`는 **튜플 자료형으로 취급**된다.
 
-```py
-def func(param, *args):
-    # 함수가 실행할 스코프
-```
+  ```py
+  def func(param, *args):
+      # 함수가 실행할 스코프
+  ```
 
 - 만약 `가변 인자`보다 후행하는 `매개 변수`가 있다면, `키워드 인자`로써만 전달 할 수 있다.
 
-```py
-def func(*args, param):
-    # 함수가 실행할 스코프
+  ```py
+  def func(*args, param):
+      # 함수가 실행할 스코프
 
-func(arg1, arg2, param = arg3)
-```
+  func(arg1, arg2, param = arg3)
+  ```
 
 ## 키워드 가변 인자(keyword arguments)
 
@@ -68,9 +68,14 @@ func(arg1, arg2, param = arg3)
 - 키워드 가변 인자는 `매개 변수` 이름 앞에 두 개의 애스터리스크(`**`)를 붙여서 표현하며, 함수 내에서 **딕셔너리 자료형으로 취급**된다.
 - `키워드 가변 인자`보다 후행하는 `매개 변수`나 `가변 인자`는 접근이 불가능하므로 사용할 수 없다.
 
-```py
-def func(**kwargs):
-    # 함수가 실행할 스코프
+  ```py
+  def func(**kwargs):
+      # 함수가 실행할 스코프
 
-func(param1=arg1, param2=arg2)
-```
+  func(param1=arg1, param2=arg2)
+  ```
+
+## 오버로딩(overlaoding)
+
+- **`Python`의 함수는 오버로딩이 불가능**하므로, 동일한 함수명을 사용할 수 없다.
+- `기본값`, `가변 인자`, `키워드 가변 인자`를 활용하여서, 오버로딩과 비슷한 효과를 낼 수 있다.
