@@ -5,7 +5,7 @@
 - 요소가 삽입되거나 제거될 때, 연결된 노드의 참조만 변경된다.
 - 중간에 요소를 추가하거나 삭제하는 작업이 빠르다.
 - 그러나 인덱스를 통한 요소 접근은 `ArrayList`보다 느리다.
-- 객체(Object)만 저장할 수 있으며, 원시 자료형은 래퍼 클래스를 사용하여 저장된다.
+- 객체(Object)만 저장할 수 있으며, 원시 자료형은 래퍼 클래스를 사용해서 저장된다.
 
   ```java
   // 기본적인 LinkedList 선언
@@ -29,8 +29,8 @@
   System.out.println(list);   // [Tiger, Dog, Rabbit, Cat, Horse, Elephant]
 
   // 요소 제거
-  list.remove("Cat");         // 객체를 사용하여 제거
-  list.remove(2);             // 인덱스를 사용하여 제거
+  list.remove("Cat");         // 객체를 사용해서 제거
+  list.remove(2);             // 인덱스를 사용해서 제거
   list.removeFirst();         // 첫 번째 요소 제거
   list.removeLast();          // 마지막 요소 제거
   System.out.println(list);   // [Dog, Horse]

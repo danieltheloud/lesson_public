@@ -15,4 +15,4 @@
 ## 논리 단항 연산자(logical unary operator)
 
 - 논리 NOT 연산자(logical NOT operator) : `!`
-  - `!x`의 꼴에서 `x`의 논리 값을 반전(부정)하여 반환한다.
+  - `!x`의 꼴에서 `x`의 논리 값을 반전(부정)해서 반환한다.

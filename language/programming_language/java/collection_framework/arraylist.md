@@ -1,9 +1,9 @@
 # ArrayList
 
 - `ArrayList`는 `java.util` 패키지에 포함된 컬렉션 클래스이며, 동적 배열 클래스이다.
-- `ArrayList`는 제네릭 사용하여 다양한 타입의 객체를 저장할 수 있다.
+- `ArrayList`는 제네릭 사용해서 다양한 타입의 객체를 저장할 수 있다.
 - 크기가 고정된 배열(array)과 달리, `ArrayList`는 요소가 추가되거나 제거되면 자동으로 크기가 조정되므로, 더 유연하게 사용할 수 있다.
-- `ArrayList`는 배열처럼 인덱스를 사용하여 요소에 빠르게 접근할 수 있다.
+- `ArrayList`는 배열처럼 인덱스를 사용해서 요소에 빠르게 접근할 수 있다.
 - `ArrayList`는 객체만 저장할 수 있으며, 원시 자료형은 자동으로 래퍼 클래스로 변환된다.
 - `ArrayList`는 중복된 값을 가질 수 있다.
 
@@ -24,8 +24,8 @@
   System.out.println(list);   // [Apple, Blueberry, Banana, Cherry]
 
   // 요소 제거
-  list.remove("Banana");      // 객체를 사용하여 제거
-  list.remove(0);             // 인덱스를 사용하여 제거
+  list.remove("Banana");      // 객체를 사용해서 제거
+  list.remove(0);             // 인덱스를 사용해서 제거
   System.out.println(list);   // [Blueberry, Cherry]
 
   // 요소 접근

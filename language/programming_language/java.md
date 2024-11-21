@@ -74,8 +74,7 @@
 - [`Thread` 클래스 상속](./java/thread/thread.md)
 - [`Runnable` 인터페이스 구현](./java/thread/runnable.md)
 - [`Executor` 프레임워크 사용](./java/thread/executor.md)
-- [스레드 동기화](./java/thread/synchronization.md)
-- 동기화 기법
+- [동기화 기법](./java/thread/synchronization.md)
 - 데드락(교착 상태)
 - 고급 스레드 관리 기법 (ForkJoinPool, CompletableFuture)
 
@@ -83,5 +82,7 @@
 
 - 예외의 종류
 - 예외 처리
+
+## OOP 디자인 패턴
 
 <!-- TODO -->

@@ -8,8 +8,8 @@
 - 변수를 선언할 때는 `var` 또는 `let`이라는 예약어(keyword)와 식별자(identifier)을 순서대로 나열한다.
   
   ```js
-  var myVar1;    // var를 사용하여 변수 myVar1을 선언한다.
-  let myVar2;    // let을 사용하여 변수 myVar2를 선언한다.
+  var myVar1;    // var를 사용해서 변수 myVar1을 선언한다.
+  let myVar2;    // let을 사용해서 변수 myVar2를 선언한다.
   ```
 
   > `var`와 `let`의 차이는 함수에 대한 설명과 함께 살펴본다.
@@ -37,7 +37,7 @@
 - 상수는 선언된 후, 값을 다시 할당할 수 없기 때문에, 꼭 초기화해야 한다.
 
   ```js
-  // const를 사용하여 상수 myMessage를 선언 및 초기화한다.
+  // const를 사용해서 상수 myMessage를 선언 및 초기화한다.
   const myMessage = 'hi';
   ```
 

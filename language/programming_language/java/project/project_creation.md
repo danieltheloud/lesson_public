@@ -2,7 +2,7 @@
 
 ## 프로젝트 생성 과정
 
-1. `Ctrl + Shift + P` 단축키를 입력하여 `커맨드 팔레트`(command palette)를 연다.
+1. `Ctrl + Shift + P` 단축키를 입력해서 `커맨드 팔레트`(command palette)를 연다.
 2. `Java: Create Java Project...`를 입력한다.
    - "language"만 입력하고, 하단에 드롭다운된 항목에서 선택한다.
 3. `No build tools`를 선택한다.

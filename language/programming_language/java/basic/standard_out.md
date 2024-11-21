@@ -24,7 +24,7 @@
   ```
 
 - `System.out.printf`
-  - `System.out.print(x, y)`의 꼴에서 `x`의 서식 문자에 `y`를 대입하여 출력한다.
+  - `System.out.print(x, y)`의 꼴에서 `x`의 서식 문자에 `y`를 대입해서 출력한다.
 
   ```java
   System.out.printf("Hello, %s", "World!");
