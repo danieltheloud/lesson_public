@@ -64,7 +64,7 @@
 ## Object 클래스
 
 - `Java`의 모든 클래스는 `Object` 클래스를 상속받는다.
-  - `Java`의 모든 객체는 `Object` 자료형으로 사용할 수 있다.
+  - `Java`의 모든 객체는 `Object` 자료형으로 형변환할 수 있다.
 
   ```java
   public class Main {

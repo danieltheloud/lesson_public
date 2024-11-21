@@ -31,7 +31,7 @@
 
 ## 시퀀스 및 컬렉션 관련 함수
 
-- `len()`
+- `len`
   - `len(x)`의 꼴에서 시퀀스 `x`가 가진 요소(element)의 수를 반환한다.
 
 ## 형변환(type conversion)

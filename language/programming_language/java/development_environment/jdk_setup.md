@@ -1,10 +1,10 @@
-# JDK(Java Development Environment) 설치
+# JDK 설치
 
 ## 설치 과정
 
 1. 인터넷 브라우저를 통해서, 아래의 url로 접속한다.
    - `https://www.oracle.com/java/technologies/downloads/`
-2. JDK는 최신 버전을 선택한다.
+2. JDK(Java Development Environment)는 최신 버전을 선택한다.
    - `JDK #`의 행태로, 추가 문구가 없는 버전을 선택한다.
 3. 설치 OS에서 `Windows`를 선택한다.
    - 선택지는 `Linux`, `macOS`, `Windows`가 있다.
@@ -22,7 +22,7 @@
 ## 주의사항
 
 - `JRE`가 아닌 `JDK`를 설치해야 한다.
-  - `JRE`(Java Runtime Environment)는 자바 코드의 **실행 환경**을 제공하고, `JDK`(Java Development Kit)는 실행 환경과 더불어 컴파일러와 디버거까지 포함한 **개발 환경**을 제공한다.
+  - `JRE`(Java Runtime Environment)는 `Java` 코드의 **실행 환경**을 제공하고, `JDK`(Java Development Kit)는 실행 환경과 더불어 컴파일러와 디버거까지 포함한 **개발 환경**을 제공한다.
 - 만약, `JDK`를 설치하였음에도 불구하고, 버전 정보가 정상적으로 출력되지 않는다면, 환경 변수가 제대로 등록되지 않았을 가능성이 있다.
   1. `Win + R` 단축키를 입력하여, 실행창을 연다.
   2. `sysdm.cpl ,3`을 입력하여 `시스템 속성`>`고급`으로 이동하고, `환경 변수`를 클릭한다.

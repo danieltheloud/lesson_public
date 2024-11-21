@@ -1,6 +1,6 @@
-# IDE(Integrated Development Environment) 설치
+# IDE 설치
 
-- 코드를 작성하려면 `편집기`(editor) 또는 `IDE`(통합 개발 환경)을 사용해야 한다.
+- 코드를 작성하려면 `편집기`(editor) 또는 `IDE`(Integrated Development Environment; 통합 개발 환경)을 사용해야 한다.
 - `IDE`는 `편집기`에는 없는 다양한 편의 기능을 제공한다.
 - `VSCode`(Visual Studio Code)는 `Microsoft`에서 무료로 제공하는 `IDE`으로써, 전세계의 가장 수많은 개발자들이 사용하고 있다.
 

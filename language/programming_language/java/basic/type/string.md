@@ -2,7 +2,7 @@
 
 - `Java`에서 문자열 자료형은 참조 자료형 중에서 유일하게 리터럴(literal)로 표현할 수 있는 자료형이다.
 - 문자열은 불변 객체로, 생성된 이후에 값을 변경할 수 없다.
-  - 문자열을 조작하는 메서드는 항상 새로운 문자열을 반환한다.
+  - 문자열을 조작하는 메소드는 항상 새로운 문자열을 반환한다.
 
 ## 문자열 변수의 선언
 
@@ -34,51 +34,51 @@
   String greating = new String("Hello, World!");  // 생성자를 사용한 초기화
   ```
 
-## String 스태틱 메서드
+## String 스태틱 메소드
 
-- `format()`
+- `format`
   - `String.format(x, ...y)`의 꼴에서 문자열 가변인자 `y`를 문자열 `x`의 포맷에 적용하여 반환한다.
   - 값들을 특정 형식으로 출력할 때 유용하다.
-- `join()`
+- `join`
   - `String.join(x, ...y)`의 꼴에서 문자열 가변인자 `y`의 사이마다 문자열 `x`를 삽입하고 이어붙여서 반환한다.
   - 요소를 구분하여 문자열을 결합할 때 유용하다.
 
-## String 인스턴스 메서드
+## String 인스턴스 메소드
 
-- `charAt()`
+- `charAt`
   - `x.charAt(y)`의 꼴에서 문자열 `x`의 `y`번째 인덱스의 문자를 반환한다.
-- `concat()`
+- `concat`
   - `x.concat(y)`의 꼴에서 문자열 `x`와 문자열 `y`를 이어붙여 새로운 문자열을 반환한다.
-- `contains()`
+- `contains`
   - `x.contains(y)`의 꼴에서 문자열 `x`에 문자열 `y`가 포함되어 있는지 여부를 반환한다.
-- `equals()`
+- `equals`
   - `x.equals(y)`의 꼴에서 문자열 `x`와 문자열 `y`가 같은지 여부를 반환한다.
-- `equalsIgnoreCase()`
+- `equalsIgnoreCase`
   - `x.equalsIgnoreCase(y)`의 꼴에서 문자열 `x`와 문자열 `y`를 대소문자 구분 없이 비교하여 같은지 여부를 반환한다.
-- `indexOf()`
+- `indexOf`
   - `x.indexOf(y)`의 꼴에서 문자열 `x`에서 문자열 `y`가 처음으로 나타나는 인덱스를 반환하며, 없으면 `-1`을 반환한다.
-- `lastIndexOf()`
+- `lastIndexOf`
   - `x.lastIndexOf(y)`의 꼴에서 문자열 `x`에서 문자열 `y`가 마지막으로 나타나는 인덱스를 반환하며, 없으면 `-1`을 반환한다.
-- `isEmpty()`
+- `isEmpty`
   - `x.isEmpty()`의 꼴에서 문자열 `x`가 비어있는지 확인하여 여부를 반환한다.
-- `isBlank()`
+- `isBlank`
   - `x.isBlank()`의 꼴에서 문자열 `x`가 공백 문자만으로 이루어졌는지 확인하여 여부를 반환한다.
-- `matches()`
+- `matches`
   - `x.matches(y)`의 꼴에서 문자열 `x`가 정규 표현식 `y`와 일치하는지 여부를 여부를 반환한다.
-- `replace()`
+- `replace`
   - `x.replace(y, z)`의 꼴에서 문자열 `x`에서 포함된 모든 문자열 `y`를 문자열 `z`로 대체하여 새로운 문자열로 반환한다.
-- `replaceAll()`
+- `replaceAll`
   - `x.replaceAll(y, z)`의 꼴에서 정규 표현식 `y`에 해당하는 부분을 문자열 `z`로 대체하여 새로운 문자열로 반환한다.
-- `split()`
+- `split`
   - `x.split(y)`의 꼴에서 문자열 `x`를 구분자 `y`로 분할하여 문자열 배열을 반환한다.
-- `substring()`
+- `substring`
   - `x.substring(y)`의 꼴에서 문자열 `x`의 `y`번째 인덱스부터 마지막 인덱스까지의 부분 문자열로 반환한다.
   - `x.substring(y, z)`의 꼴에서 문자열 `x`의 `y`번째 인덱스부터 `z`번째 인덱스 이전까지의 부분 문자열로 반환한다.
-- `subSequence()`
+- `subSequence`
   - `x.subSequence(y, z)`의 꼴에서 `CharSequence`로 반환하며, `x.substring(y, z)` 꼴과 유사하다.
-- `toLowerCase()`
+- `toLowerCase`
   - `x.toLowerCase()`의 꼴에서 문자열 `x`를 소문자로 변환하여 반환한다.
-- `toUpperCase()`
+- `toUpperCase`
   - `x.toUpperCase()`의 꼴에서 문자열 `x`를 대문자로 변환하여 반환한다.
-- `trim()`
+- `trim`
   - `x.trim()`의 꼴에서 문자열 `x`의 앞뒤 공백을 제거하여 반환한다.

@@ -74,13 +74,13 @@
 
 ## Arrays 스태틱 메소드
 
-- `Arrays.toString()`
+- `Arrays.toString`
   - `Arrays.toString(x)`의 꼴에서 배열 `x`의 각 원소를 쉼표로 구분하고 대괄호로 감싸서 문자열로 반환한다.
-- `Arrays.sort()`
+- `Arrays.sort`
   - `Arrays.sort(x)`의 꼴에서 배열 `x`의 각 원소를 오름차 정렬한다.
   - `Arrays.sort(x, y)`의 꼴에서 배열 `x`의 각 원소를 함수 `y`에 따라 정렬한다.
     - `x`가 원시 자료형 배열이라면, `래퍼 클래스`로 바꿔줘야 한다.
-- `Arrays.copyOf()`
+- `Arrays.copyOf`
   - `Arrays.copyOf(x)`의 꼴에서 배열 `x`를 깊은 복사하여 반환한다.
 
 ## 다차원 배열
