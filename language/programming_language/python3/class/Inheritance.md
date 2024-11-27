@@ -29,9 +29,9 @@
           print("Child Constructor")
   ```
 
-## 메소드 오버라이딩(method overriding)
+## 메소드 오버라이딩
 
-- 상속받은 메소드를 자식 클래스에서 **재정의**하는 것을 메소드 `오버라이딩`이라고 한다.
+- 상속받은 메소드를 자식 클래스에서 **재정의**하는 것을 메소드 `오버라이딩`(overriding)이라고 한다.
 - `오버라이딩`된 메소드는 자식 클래스의 인스턴스에서 호출될 때, 부모 클래스의 메소드가 아닌 자식 클래스의 메소드가 실행된다.
 
   ```py
@@ -47,9 +47,9 @@
   obj.func()  # This is a method from the child class
   ```
 
-## 다중 상속(multiple inheritance)
+## 다중 상속
 
-- 다중 상속은 하나의 자식 클래스가 동시에 여러 부모 클래스로부터 상속받는 것을 의미합니다.
+- 다중 상속(multiple inheritance)은 하나의 자식 클래스가 동시에 여러 부모 클래스로부터 상속받는 것을 의미합니다.
 - 다중 상속 시, 부모 클래스의 이름을 쉼표로 구분해서 선언합니다.
 
   ```py
@@ -97,9 +97,9 @@
   obj.show()  # B (파이썬의 MRO에 따라 결정됨)
   ```
 
-#### MRO(Method Resolution Order) 확인
+#### MRO 확인
 
-- MRO를 확인하려면 `__mro__` 속성이나 `inspect` 모듈의 `getmro()` 함수를 사용할 수 있습니다.
+- MRO(method resolution order)를 확인하려면 `__mro__` 속성이나 `inspect` 모듈의 `getmro()` 함수를 사용할 수 있습니다.
 
 ```py
 ...

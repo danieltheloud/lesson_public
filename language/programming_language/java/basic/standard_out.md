@@ -15,7 +15,7 @@
   - `System.out.println(x)`의 꼴에서 `x`를 출력하고 개행한다.
 
   ```java
-  System.out.print("Hello, World!");
+  System.out.println("Hello, World!");
   ```
 
   ```java

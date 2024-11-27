@@ -64,9 +64,9 @@
 
 ## 함수
 
-- 함수형 인터페이스
-- 람다식
-- 더블 콜론 연산자
+- 함수형 인터페이스(functional interface)
+- 람다식(lambda expression)
+- 더블 콜론(`::`) 연산자
 - 스트림
 
 ## 스레드
@@ -78,10 +78,11 @@
 - 데드락(교착 상태)
 - 고급 스레드 관리 기법 (ForkJoinPool, CompletableFuture)
 
-## 예외
+## 오류와 예외
 
-- 예외의 종류
-- 예외 처리
+- [오류와 예외](./java/exception/error_and_exception.md)
+- [예외의 종류](./java/exception/exceptions.md)
+- [예외 처리](./java/exception/try.md)
 
 ## OOP 디자인 패턴
 
