@@ -1,10 +1,10 @@
-# IDE 설치
+# VS Code 설치
 
 - 코드를 작성하려면 `편집기`(editor) 또는 `IDE`(Integrated Development Environment; 통합 개발 환경)을 사용해야 한다.
 - `IDE`는 `편집기`에는 없는 다양한 편의 기능을 제공한다.
-- `VSCode`(Visual Studio Code)는 `Microsoft`에서 무료로 제공하는 `IDE`으로써, 전세계의 가장 수많은 개발자들이 사용하고 있다.
+- `VS Code`(Visual Studio Code)는 `Microsoft`에서 무료로 제공하는 `IDE`으로써, 전세계의 가장 수많은 개발자들이 사용하고 있다.
 
-## VSCode 설치 및 설정
+## VS Code 설치 및 설정
 
 1. 인터넷 브라우저를 통해서, 아래의 url로 접속한다.
    - `https://code.visualstudio.com/`
@@ -21,7 +21,7 @@
 
 ## 확장 프로그램 설치
 
-`VSCode`를 실행하고, 왼쪽에 나열된 메뉴 중에 `확장`(extension)을 선택한다.
+`VS Code`를 실행하고, 왼쪽에 나열된 메뉴 중에 `확장`(extension)을 선택한다.
 
 - `Extension Pack for Java`를 설치한다.
 - 그 외에도 다양한 확장 프로그램들이 있으니, 기호에 따라 설치한다.

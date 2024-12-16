@@ -2,7 +2,7 @@
 
 ## 일치성 연산자(equality operators)
 
-- 동등 연산자(equality operator) : `==`
+- 상등 연산자(equality operator) : `==`
   - `x == y`의 꼴에서 `x`와 `y`의 값이 같은가의 여부를 반환한다.
   - **타입 비교를 하지 않음에 유의해야 한다.**
 - 부등 연산자(inequality operator) : `!=`

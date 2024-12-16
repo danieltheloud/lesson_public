@@ -23,7 +23,7 @@
 ## 개발 환경(development environment)
 
 - [`JDK`(Java Development Kit) 설치](./java/development_environment/jdk_setup.md)
-- [`IDE`(Integrated Development Environment) 설치](./java/development_environment/ide_setup.md)
+- [`IDE`(Integrated Development Environment) 설치](../../application/ide/vscode/setup.md)
 
 ## 프로젝트(project)
 
@@ -32,8 +32,8 @@
 
 ## 기초
 
-- [기본 출력](./java/basic/standard_out.md)
-- [기본 입력](./java/basic/standard_in.md)
+- [표준 출력](./java/basic/standard_out.md)
+- [표준 입력](./java/basic/standard_in.md)
 - [파일 입출력](./java/basic/file_io.md)
 - [변수(variable)](./java/basic/variable.md)
 - [자료형(type)](./java/basic/type.md)
@@ -60,13 +60,13 @@
   - [LinkedList](./java/collection_framework/linkedlist.md)
   - [HashSet](./java/collection_framework/hashset.md)
   - [HashMap](./java/collection_framework/hashmap.md)
-- 열거체
+- [열거체(enumerator)](./java/enumerator.md)
 
-## 함수
+## 함수형 프로그래밍
 
-- 함수형 인터페이스(functional interface)
-- 람다식(lambda expression)
-- 더블 콜론(`::`) 연산자
+- [함수형 인터페이스(functional interface)](./java/functional/functional_interface.md)
+- [람다 표현식(lambda expression)](./java/functional/lambda_expression.md)
+- [더블 콜론(double colon) 연산자](./java/functional/double_colon_operator.md)
 - 스트림
 
 ## 스레드
@@ -80,7 +80,7 @@
 
 ## 오류와 예외
 
-- [오류와 예외](./java/exception/error_and_exception.md)
+- [오류와 예외(error and exception)](./java/exception/error_and_exception.md)
 - [예외의 종류](./java/exception/exceptions.md)
 - [예외 처리](./java/exception/try.md)
 

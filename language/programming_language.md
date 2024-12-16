@@ -9,7 +9,7 @@
   - 절차적 프로그래밍 언어(procedural programming language)
     - `BASIC`(Beginner's All-purpose Symbolic Instruction Code)
     - `VB`(Visual Basic)
-    - `C`
+    - [`C`](./programming_language/c.md)
     - `Lua`
     - `PHP`(PHP: Hypertext Preprocessor, Personal Home Page)
   - 객체 지향 프로그래밍 언어(Object-Oriented Programming, OOP)

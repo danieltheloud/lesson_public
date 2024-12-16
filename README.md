@@ -17,7 +17,7 @@
 - 통신 프로토콜(`communication protocol`)
   - `OSI 7 Layers`
 - 컨벤션(`convention`)
-- 정규 표현식(regular expression, `regex`, `regexp`)
+- 정규 표현식(regular expression; `regex`, `regexp`)
 - [유의어 사전](./cs/dictionary.md)
 
 ## 컴퓨터 언어(computer language)
@@ -30,6 +30,17 @@
 - [데이터 교환 언어(`data exchange languages`)](./language/data_exchange_languages.md)
 - [설정 언어(`configuration language`)](./language/configuration_language.md)
 
+### 컨벤션(convention)
+
+- [명명법(naming convention)](./convention/naming_convention.md)
+
+### OOP 디자인 패턴(design pattern)
+
+- [원칙(principle)](./oop/principle.md)
+- 디자인 패턴
+
+<!-- TODO -->
+
 ## SCM (Source Code Management)
 
 - [`Git`](./scm/git.md)
@@ -41,6 +52,10 @@
 
 ## 응용 프로그램(application)
 
+- 편집기(editor)
+  - Vim
+- `IDE`(Integrated Development Environment; 통합 개발 환경)
+  - [VSCode(`Visual Studio Code`)](./application/ide/vscode.md)
 - 마이크로 소프트 오피스(`Microsoft office`)
   - 엑셀(`Exel`)
   - 파워포인트(`PowerPoint`)

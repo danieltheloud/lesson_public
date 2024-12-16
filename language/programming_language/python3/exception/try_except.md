@@ -74,7 +74,7 @@
       print("0으로 나눌 수 없습니다.")
   else:
       # 오류가 발생하지 않았을 경우에 실행될 코드
-      print(f"10을 {number}로 나눈 몫은 {int(result)}입니다.")
+      print(f"10을 {number}로 나눈 몫은 {result}입니다.")
   finally:
       # 오류발생 여부와 상관없이 실행될 코드
       print("프로그램이 종료됩니다.")
