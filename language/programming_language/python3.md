@@ -32,11 +32,6 @@ docstrings
   - [값에 의한 호출과 참조에 의한 호출](./python3/operator_and_function/call_by.md)
 - 할당에 의한 호출(call by assignment)
 
-## 블럭 관련 키워드
-
-- global
-- nonlocal
-
 ## 제어문(control statement)
 
 - [반복문(iteration statement)](./python3/control_statement/iteration.md)
