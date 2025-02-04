@@ -22,15 +22,17 @@ docstrings
 
 ## 변수와 자료형
 
-- [변수(variable)](./python3/variable_and_type/variable.md)
+- [변수](./python3/variable_and_type/variable.md)
 - [자료형(type)](./python3/variable_and_type/type.md)
 
 ## 연산자와 함수
 
 - [연산자(operator)](./python3/operator_and_function/operator.md)
 - [함수(function)](./python3/operator_and_function/function.md)
-  - [값에 의한 호출과 참조에 의한 호출](./python3/operator_and_function/call_by.md)
-- 할당에 의한 호출(call by assignment)
+  - [대입에 의한 호출 (객체 참조에 의한 호출)](./python3/operator_and_function/call_by.md)
+  - [클로저와 데코레이터](./python3/operator_and_function/closure_and_decorator.md)
+  - [이터레이터와 제너레이터](./python3/operator_and_function/iterator_and_generator.md)
+  - [타입 힌팅](./python3/operator_and_function/type_hinting.md)
 
 ## 제어문(control statement)
 

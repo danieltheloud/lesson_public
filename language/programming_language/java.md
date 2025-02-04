@@ -71,9 +71,9 @@
 
 ## 스레드(thread)
 
-- [`Thread` 클래스 상속](./java/thread/thread.md)
-- [`Runnable` 인터페이스 구현](./java/thread/runnable.md)
-- [`Executor` 프레임워크 사용](./java/thread/executor.md)
+- [Thread 클래스 상속](./java/thread/thread.md)
+- [Runnable 인터페이스 구현](./java/thread/runnable.md)
+- [Executor 프레임워크 사용](./java/thread/executor.md)
 - [동기화 기법](./java/thread/synchronization.md)
 - 데드락(교착 상태)
 - 고급 스레드 관리 기법 (ForkJoinPool, CompletableFuture)
@@ -83,6 +83,9 @@
 - [오류와 예외](./java/exception/error_and_exception.md)
 - [예외의 종류](./java/exception/exceptions.md)
 - [예외 처리](./java/exception/try.md)
+- 예외 던지기(throws)
+- 예외 발생 시키기(throw)
+- 트랜잭션(transaction)
 - 사용자 정의 예외
 
 ## OOP 디자인 패턴
