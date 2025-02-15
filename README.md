@@ -16,8 +16,8 @@
   - `Unicode`
 - 통신 프로토콜(`communication protocol`)
   - `OSI 7 Layers`
-- 컨벤션(`convention`)
-- 정규 표현식(regular expression; `regex`, `regexp`)
+- [컨벤션(`convention`)](./cs/convention.md)
+- [정규 표현식(regular expression; `regex`, `regexp`)](./cs/regex.md)
 - [유의어 사전](./cs/dictionary.md)
 
 ## 컴퓨터 언어(computer language)
@@ -29,10 +29,6 @@
 - [질의 언어(`query language`)](./language/query_language.md)
 - [데이터 교환 언어(`data exchange languages`)](./language/data_exchange_languages.md)
 - [설정 언어(`configuration language`)](./language/configuration_language.md)
-
-### 컨벤션(convention)
-
-- [명명법(naming convention)](./convention/naming_convention.md)
 
 ### OOP 디자인 패턴(design pattern)
 
