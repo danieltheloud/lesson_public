@@ -16,8 +16,11 @@
   - `Unicode`
 - 통신 프로토콜(`communication protocol`)
   - `OSI 7 Layers`
+  - `TCP/IP 4 Layers`
 - [컨벤션(`convention`)](./cs/convention.md)
-- [정규 표현식(regular expression; `regex`, `regexp`)](./cs/regex.md)
+- 패턴
+  - [글로브(`glob`; global command)](./cs/glob.md)
+  - [정규 표현식(regular expression; `regex`, `regexp`)](./cs/regex.md)
 - [유의어 사전](./cs/dictionary.md)
 
 ## 컴퓨터 언어(computer language)
