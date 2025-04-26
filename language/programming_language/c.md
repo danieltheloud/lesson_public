@@ -33,10 +33,10 @@
 
 ## 기초
 
-- [자료형](./c/basic/type.md)
-- [변수와 상수](./c/basic/variable.md)
-- 표준 입출력
-- 파일 입출력
+- [원시 자료형(primivite type)](./c/basic/primitive_type.md)
+- [변수와 상수(variable and constant)](./c/basic/variable.md)
+- [표준 입출력](./c/basic/stdin.md)
+- [파일 입출력](./c/basic/stdout.md)
 - [연산자(operator)](./c/basic/operator.md)
   - 형승격(type promotion)
   - 형변환(type casting)
@@ -53,9 +53,23 @@
   - break
   - continue
 
-## 열거체
+## 자료형(type)
 
-## 구조체(struct)와 공용체(union)
+- 원시 자료형(primivite type)
+- 파생 자료형(derived type)
+  - 함수(function)
+  - [배열(array)](./c/type/array.md)
+  - [포인터(pointer)](./c/type/pointer.md)
+- 사용자 정의 자료형(user defined type)
+  - [구조체(struct)](./c/type/struct.md)
+  - [공용체(union)](./c/type/union.md)
+  - [열거체(enum)](./c/type/enum.md)
+
+## 오류와 예외
+
+- 오류와 예외
+- 예외의 종류
+- 예외 처리
 
 ## 스레드
 
@@ -65,11 +79,5 @@
 - 동기화 기법
 - 데드락(교착 상태)
 - 고급 스레드 관리 기법 (ForkJoinPool, CompletableFuture)
-
-## 오류와 예외
-
-- 오류와 예외
-- 예외의 종류
-- 예외 처리
 
 <!-- TODO -->

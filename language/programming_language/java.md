@@ -69,15 +69,6 @@
 - [더블 콜론 연산자](./java/functional/double_colon_operator.md)
 - 스트림
 
-## 스레드(thread)
-
-- [Thread 클래스 상속](./java/thread/thread.md)
-- [Runnable 인터페이스 구현](./java/thread/runnable.md)
-- [Executor 프레임워크 사용](./java/thread/executor.md)
-- [동기화 기법](./java/thread/synchronization.md)
-- 데드락(교착 상태)
-- 고급 스레드 관리 기법 (ForkJoinPool, CompletableFuture)
-
 ## 오류와 예외
 
 - [오류와 예외](./java/exception/error_and_exception.md)
@@ -87,6 +78,15 @@
 - 예외 발생 시키기(throw)
 - 트랜잭션(transaction)
 - 사용자 정의 예외
+
+## 스레드(thread)
+
+- [Thread 클래스 상속](./java/thread/thread.md)
+- [Runnable 인터페이스 구현](./java/thread/runnable.md)
+- [Executor 프레임워크 사용](./java/thread/executor.md)
+- [동기화 기법](./java/thread/synchronization.md)
+- 데드락(교착 상태)
+- 고급 스레드 관리 기법 (ForkJoinPool, CompletableFuture)
 
 ## OOP 디자인 패턴
 
