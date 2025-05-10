@@ -13,10 +13,10 @@
 3. <1>에서 다운로드 받은 압축 파일을 원하는 위치에 풀고, `bin` 디렉토리의 주소를 복사한다.
    - `명령 프롬프트`(혹은 `PowerShell`)에서 설치 위치로 이동하기 위해, 아래와 같이 명령한다.
 
-     ```ps
-     cd "<3>에서 복사한 주소"
-     ```
-
+     > ```ps
+     > cd "<3>에서 복사한 주소"
+     > ```
+     >
      > 만약 <3>에서 복사한 주소가 `C:\dbms\bin` 라면, 명령어는 아래와 같다.
      >
      > ```ps
@@ -25,27 +25,27 @@
 
    - 설치 위치로 이동했다면, MariaDB 설치를 위해 아래와 같이 명령한다.
 
-     ```ps
-     .\mysql_install_db.exe --service="서비스 이름" --port=포트번호 --password="root 계정 비밀번호"
-     ```
-
+     > ```ps
+     > .\mysql_install_db.exe --service="서비스 이름" --port=포트번호 --password="root 계정 비밀번호"
+     > ```
+     >
      > 가령, 서비스 이름이 "CustomMariaDB"이고, 포트 번호가 "3306"이며, 초기 root 비밀번호가 "test1234"인 경우 아래와 같이 명령한다.
      >
      > ```ps
      > .\mysql_install_db.exe --service="CustomMariaDB" --port=3306 --password="test1234"
      > ```
-
-     정상적으로 설치되었다면 아래와 같이 출력된다.
-
-     ```txt
-     Default data directory is C:\dbms\data
-     Running bootstrap
-     Registering service 'CustomMariaDB'
-     Creating my.ini file
-     Removing default user
-     Setting root password
-     Creation of the database was successful
-     ```
+     >
+     > 정상적으로 설치되었다면 아래와 같이 출력된다.
+     >
+     > ```txt
+     > Default data directory is C:\dbms\data
+     > Running bootstrap
+     > Registering service 'CustomMariaDB'
+     > Creating my.ini file
+     > Removing default user
+     > Setting root password
+     > Creation of the database was successful
+     > ```
 
 4. 서버의 인코딩을 `UTF8`로 변경해서 한글이 깨지지 않게 하기 위해 `MariaDB 설치 경로\data\my.ini` 파일을 메모장으로 열어 아래와 같이 내용을 추가/변경 한다.
 
@@ -72,12 +72,12 @@
 
 정상적으로 설치되었는지 확인하려면 다음 명령어를 입력한다.
 
-```ps
-mysql --version
-```
-
-정상적으로 설치되었다면, `mysql.exe` 파일의 경로를 비롯한 버전정보가 출력된다.
-
-```txt
-path\to\mysql.exe from ?.?.?-MariaDB, ...
-```
+> ```ps
+> mysql --version
+> ```
+>
+> 정상적으로 설치되었다면, `mysql.exe` 파일의 경로를 비롯한 버전정보가 출력된다.
+>
+> ```txt
+> path\to\mysql.exe from ?.?.?-MariaDB, ...
+> ```

@@ -2,13 +2,14 @@
 
 - 스키마를 생성하기 위해 아래 쿼리를 실행한다.
 
-  ```sql
-  CREATE SCHEMA `스키마 이름`;
-  ```
+  > ```sql
+  > CREATE SCHEMA `스키마 이름`;
+  > ```
 
 - 이미 존재하는 스키마의 이름으로 생성하려고 하면 오류가 발생하므로 유의한다.
-  - 해당 스키마 이름이 존재하지 않는 경우에만 생성하려면, 아래와 같이 `IF NOT EXISTS` 키워드를 활용할 수 있다.
 
-    ```sql
-    CREATE SCHEMA IF NOT EXISTS `스키마 이름`;
-    ```
+  > ```sql
+  > CREATE SCHEMA IF NOT EXISTS `스키마 이름`;
+  > ```
+  >
+  > - 해당 스키마 이름이 존재하지 않는 경우에만 생성하려면, 아래와 같이 `IF NOT EXISTS` 키워드를 활용할 수 있다.

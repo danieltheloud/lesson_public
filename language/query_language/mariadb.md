@@ -1,12 +1,12 @@
 # MariaDB
 
-```sql
-SELECT 'Hello, World!' AS `greating`;
-```
-
-||greating|
-|---|---|
-|▶|Hello, World!|
+> ```sql
+> SELECT 'Hello, World!' AS `greating`;
+> ```
+>
+> ||greating|
+> |---|---|
+> |▶|Hello, World!|
 
 ## 주석(comments)
 
