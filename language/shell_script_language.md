@@ -4,7 +4,7 @@
   - `Bourne shell`
   - `C shell`
   - `Korn shell`
-  - `Bash`(Bourne Again Shell)
+  - [`Bash`](./style_sheet_language/bash.md)
   - `Z shell`
 - Windows shell
   - `Command Prompt`
