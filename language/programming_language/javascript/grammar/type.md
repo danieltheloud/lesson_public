@@ -3,26 +3,38 @@
 `JavaScript`에는 8가지의 원시 자료형이 있다.
 
 - 원시 자료형(primitive type)
-  - `boolean`
-    - 참(`true`)과 거짓(`false`)으로 표현되는 논리값이다.
   - `null`
-    - `null` 값을 나타내는 특별한 예약어다.
-    - `JavaScript`는 대소문자를 구분하므로, `null`은 Null, NULL 혹은 다른 변형과도 다르다.
+
+    > - `null` 값을 나타내는 특별한 예약어다.
+    > - `JavaScript`는 대소문자를 구분하므로, `null`은 Null, NULL 혹은 다른 변형과도 다르다.
+
   - `undefined`
-    - 값이 정의되어 있지 않은 최상위 속성이다.
+
+    > - 값이 정의되어 있지 않은 최상위 속성이다.
+
+  - `boolean`
+
+    > - 참(`true`)과 거짓(`false`)으로 표현되는 논리값이다.
+
   - `number`
-    - 정수형(integer) 또는 실수형(float) 숫자이다.
-      > ex) 1, 3.14
+
+    > - 정수형(integer) 또는 실수형(float) 숫자이다.
+
   - `bigint`
-    - 임의 정밀도(arbitrary-precision)의 정수이다.
-    - 숫자 리터럴(literal) 뒤에 `n`을 붙여서 표현한다.
-      > ex) 12345678901234567890n
+
+    > - 임의 정밀도(arbitrary-precision)의 정수이다.
+    > - 숫자 리터럴(literal) 뒤에 `n`을 붙여서 표현한다.
+
   - `string`
-    - 문자열이다.
-      > ex) 'hello'
+
+    > - 문자열이다.
+
   - `symbol` (ECMAScript 2015에 도입)
-    - 인스턴스가 고유하고 불변인 데이터 형이다.
-- 객체(`object`)
+
+    > - 인스턴스가 고유하고 불변인 데이터 형이다.
+
+- 객체
+  - `object`
 
 ## 자료형 변환(data type conversion)
 
@@ -32,7 +44,7 @@
   let thisVar = 1;
   // thisVar 변수는 number 자료형이다.
   console.log(`thisVar 변수는 ${typeof thisVar} 자료형이다`);
-  
+
   thisVar = 'one';
   // thisVar 변수는 string 자료형이다.
   console.log(`thisVar 변수는 ${typeof thisVar} 자료형이다`);
@@ -47,7 +59,7 @@
   let num = 10;
   // num의 값은 10이고, 자료형은 number이다.
   console.log(`num의 값은 ${num}이고, 자료형은 ${typeof num}이다.`);
-  
+
   num = num.toString();
   // num의 값은 10이고, 자료형은 string이다
   console.log(`num의 값은 ${num}이고, 자료형은 ${typeof num}이다.`);
@@ -60,15 +72,15 @@
   let num1 = '1';
   // num1의 값은 1이고, 자료형은 string이다.
   console.log(`num1의 값은 ${num1}이고, 자료형은 ${typeof num1}이다.`);
-  
+
   let num2 = '3.14';
   // num2의 값은 3.14이고, 자료형은 string이다.
   console.log(`num2의 값은 ${num2}이고, 자료형은 ${typeof num2}이다.`);
-  
+
   num1 = parseInt(num1);
   // num1의 값은 1이고, 자료형은 number이다.
   console.log(`num1의 값은 ${num1}이고, 자료형은 ${typeof num1}이다.`);
-  
+
   num2 = parseFloat(num2);
   // num2의 값은 3.14이고, 자료형은 number이다.
   console.log(`num2의 값은 ${num2}이고, 자료형은 ${typeof num2}이다.`);
