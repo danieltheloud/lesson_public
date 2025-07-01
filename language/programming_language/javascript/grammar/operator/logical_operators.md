@@ -17,13 +17,3 @@
 - 논리 NOT 연산자(logical NOT operator) : `!`
 
   > - `!x`의 꼴에서 `x`의 논리 값을 반전(부정)해서 반환한다.
-
-## 관계 연산자(relational operator)
-
-- in 연산자(in operator) : `in`
-
-  > - `x in y`의 꼴에서 인덱스(index) 또는 키(key) `x`가 객체 `y`에 포함되어 있는지 여부를 반환한다.
-
-- instanceof 연산자(instanceof operator) : `instanceof`
-
-  > - `x instanceof y`의 꼴에서 객체 `x`가 객체 자료형 `y`의 객체인지 여부를 반환한다.

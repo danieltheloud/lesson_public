@@ -35,12 +35,17 @@
 
 - [원시 자료형(primivite type)](./c/basic/primitive_type.md)
 - [변수와 상수(variable and constant)](./c/basic/variable.md)
-- [표준 입출력](./c/basic/stdin.md)
-- [파일 입출력](./c/basic/stdout.md)
 - [연산자(operator)](./c/basic/operator.md)
-  - 형승격(type promotion)
+  - [형 승격(type promotion)](./c/basic/type_promotion.md)
   - 형변환(type casting)
   - 쇼트 서킷(short circuit)
+
+## 함수
+
+- [표준 입출력](./c/function/stdin.md)
+- [함수 정의](./c/function/definition.md)
+- [함수 호출](./c/function/call.md)
+- [파일 입출력](./c/function/stdout.md)
 
 ## 제어문(control statement)
 
@@ -73,9 +78,6 @@
 
 ## 스레드
 
-- `Thread` 클래스 상속
-- `Runnable` 인터페이스 구현
-- `Executor` 프레임워크 사용
 - 동기화 기법
 - 데드락(교착 상태)
 - 고급 스레드 관리 기법 (ForkJoinPool, CompletableFuture)

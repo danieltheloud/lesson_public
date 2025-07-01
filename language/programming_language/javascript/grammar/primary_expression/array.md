@@ -52,12 +52,13 @@
 
 ## 요소 쓰기(write)
 
-- 이는 `JavaScript`의 엔진이 인덱스에 위치한 값을 문자열(`string`)로 강제 형변환해서 사용하기 때문이다.
-- 정수 이외의 값을 인덱스로 사용하는 것이 가능하지만, 이렇게 생성된 요소들은 반복자(iterator)를 통한 순회(traversal)가 불가능해지므로 사용하지 않기를 권장한다.
+- 배열의 인덱스는 문자열로 작성하더라도 동일하게 작동한다.
+  - 이는 `JavaScript`의 엔진이 인덱스에 위치한 값을 문자열(`string`)로 강제로 형변환하여 사용하기 때문이다.
+- 정수 이외의 값을 인덱스로 사용하는 것이 가능하지만, 이렇게 생성된 요소들은 반복자(`iterator`)를 통한 순회(`traversal`)가 불가능해지므로 사용하지 않는 것이 좋다.
 
   ```js
   let tmpArray = ['A', 'B', 'C'];
-  console.log(tmpArray['0'])  // 0
+  console.log(tmpArray['0'])  // A
   console.log(tmpArray['00']) // undefined
 
   tmpArray['zero'] = 100;     // 문자열을 인덱스로 사용한다.

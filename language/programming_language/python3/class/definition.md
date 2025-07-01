@@ -10,7 +10,7 @@
 
 ## 속성과 메소드
 
-> 클래스는 속성(attribute)과 메소드(method)를 포함할 수 있다.
+> 클래스는 속성(`attribute`)과 메소드(`method`)를 포함할 수 있다.
 
 - [속성](./definition/attribute.md)
 - [메소드](./definition/method.md)
